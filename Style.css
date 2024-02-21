@@ -59,7 +59,7 @@ li :hover{
 }
 
 #banner {
-    background-image: url('http://www.impawards.com/2022/posters/batman_ver10_xxlg.jpg');
+    background-image: url(./batman_ver10_xxlg.jpg);
     background-position: 50% 50%;
     background-size: cover;
     width: 100%;
