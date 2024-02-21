@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+
+*{
+    margin: 0;
+    list-style: none;
+    text-decoration: none;    
+}
+
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+nav {
+        height: 70%;
+}
+
+ul {
+    display:flex;
+    width: 800px;
+    justify-content:space-evenly;
+    flex-direction: row;
+    position: relative;
+    top: 35px;
+    left: -230px;
+     background-color: transparent;
+}
+
+li {
+    list-style:none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Signika', sans-serif;
+}
+
+#logo-home { 
+    margin-top: 4px;
+    height: 84px; 
+    width: auto;
+    position: inherit;
+    margin-left: -83px;
+}
+
+
+body { 
+    background-image: url('background-batman.jpeg');
+    background-size: cover;
+    background-size: 100%;
+}
+
+#titulo {
+
+    color: red;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;;
+    font-family: 'Signika', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    row-gap: 20px;
+}
+
+
+button {
+    background-color: red;
+    font-family: 'Signika', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+input { 
+    color: white;
+    border: 1px solid white;
+    border-radius: 7px;
+    height: 50%;
+    width: 50%;
+    background-color: transparent;
+}
+
+textarea {
+    color: white;
+    border-radius: 7px;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+
+
+label {
+    color: white;
+    font-weight: bold;
+    font-family: 'Signika', sans-serif;
+    font-style: italic;
+}
+
+.coment { 
+    display: flex;
+    align-items: center;
+    flex-direction:inherit;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-weight: bold;
+    row-gap: 30px;
+}
+
+.coment1 {
+    height: 200px;
+    width: 400px;
+    background-color: white;
+    align-items: center;
+    flex-direction:column;
+    justify-content: center;
+    border-radius: 6%;
+    display: flex;
+    font-family: 'Signika', sans-serif;
+    border: 5px ridge white;
+}
+
+#foto1 {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+
+#estrela1 {
+    height: 50px;
+    width: 170px;
+}
+
+.coment2 {
+    height: 200px;
+    width: 400px;
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 6%;
+    display: flex;
+    font-family: 'Signika', sans-serif;
+    border: 5px ridge white;
+}
+
+#foto2 {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+
+#estrela2 {
+    height: 50px;
+    width: 170px;
+}
+
+.coment3 {
+    height: 200px;
+    width: 400px;
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 6%;
+    display: flex;
+    font-family: 'Signika', sans-serif;
+    border: 5px ridge white;
+}
+
+#foto3 {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+
+#estrela3 {
+    height: 50px;
+    width: 170px;
+}
+
+.coment4 {
+    height: 200px;
+    width: 400px;
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 6%;
+    display: flex;
+    font-family: 'Signika', sans-serif;
+    border: 5px ridge white;
+}
+
+#foto4 {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+
+#estrela4 {
+    height: 50px;
+    width: 170px;
+}
+
+.coment5 {
+    height: 200px;
+    width: 400px;
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 6%;
+    display: flex;
+    font-family: 'Signika', sans-serif;
+    border: 5px ridge white;
+}
+
+#foto5 {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+
+#estrela5 {
+    height: 50px;
+    width: 170px;
+}
+
+.coment6 {
+    height: 200px;
+    width: 400px;
+    background-color: white;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 6%;
+    display: flex;
+    font-family: 'Signika', sans-serif;
+    border: 5px ridge white;
+}
+
+#foto6 {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+}
+
+#estrela6 {
+    height: 50px;
+    width: 170px;
+}
+
+.coment1:hover {
+    transform: scale(1.03)
+}
+
+.coment2:hover {
+    transform: scale(1.03)
+}
+
+.coment3:hover {
+    transform: scale(1.03)
+}
+
+.coment4:hover {
+    transform: scale(1.03)
+}
+
+.coment5:hover {
+    transform: scale(1.03)
+}
+
+.coment6:hover {
+    transform: scale(1.03)
+}
+
+footer {
+    height: 300px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-around;
+    bottom: 700px;
+    background-color: black;
+
+}   
+
+#logo {
+    width: 150px;
+    height: auto;
+    margin-left: 0%;
+}
+
+span{
+    color: aliceblue;
+    font-family:'Signika', sans-serif;
+}
+
+.footer-navigation{
+    display: none;      
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    foot
+}
+

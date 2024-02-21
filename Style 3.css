@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Signika:wght@300&display=swap');
+
+*{
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    background-color: black;
+}
+
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav {
+        height: 70%;
+}
+
+ul {
+    display:flex;
+    width: 800px;
+    justify-content:space-evenly;
+    flex-direction: row;
+    position: relative;
+    top: 35px;
+    left: -230px;
+     background-color: transparent;
+}
+
+li {
+    list-style:none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Signika', sans-serif;
+}
+
+#logo-home { 
+    margin-top: 4px;
+    height: 84px; 
+    width: auto;
+    position: inherit;
+    margin-left: -83px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    row-gap: 20px;
+    background-image: url('https://th.bing.com/th/id/R.d0fa935cb27bae7b297912d379c70370?rik=uNWqXgXplO2Tyw&riu=http%3a%2f%2fwallup.net%2fwp-content%2fuploads%2f2016%2f05%2f27%2f346192-Batman-artwork.jpg&ehk=wDg70KQaUEQCepq3Cu5QyY1eRBqKsvVI10nUjbSZbbg%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover;
+    background-size: 126%;
+    background-position: center;
+}
+
+
+button {
+    background-color: red;
+    font-family: 'Signika', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+input { 
+    color: white;
+    border: 1px solid white;
+    border-radius: 7px;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+}
+
+textarea {
+    color: white;
+    border-radius: 7px;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+
+
+label {
+    color: white;
+    font-weight: bold;
+    font-family: 'Signika', sans-serif;
+    font-style: italic;
+    background-color: transparent;
+}
+
+#titulo {
+
+    color: red;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;;
+    font-family: 'Signika', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 50px;
+
+}
+
+
+.borda {
+        border: 9px ridge red;
+        height: 50%;
+        width: 50%;
+        display: inline-block;
+        margin-left: 25%;
+        margin-top: 5%;
+        border-radius: 3%;
+        
+}
+
+footer {
+    height: 300px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: space-around;
+    bottom: 700px;
+
+}   
+
+#logo {
+    width: 150px;
+    height: auto;
+    margin-left: 0%;
+}
+
+span{
+    color: aliceblue;
+    font-family:'Signika', sans-serif;
+}
+
+.footer-navigation{
+    display: none;      
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    foot
+}
